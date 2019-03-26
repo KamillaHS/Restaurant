@@ -1,0 +1,133 @@
+/* Nav */
+
+.nav-wrapper {
+    background-color: grey;
+    display:flex;
+}
+
+nav ul li a:hover {
+    background-color: rgba(255,255,255,0.0);
+    color: black;
+}
+
+#logo-box {
+    width: 300px;
+}
+
+#nav-box {
+    margin-right: 0;
+    margin-left: auto;
+}
+
+/* Hero */
+#front-hero, #booking-hero, #table-hero {
+    /* Sizing */
+    width: 100%;
+    height: 100vh;
+
+    /* Flexbox stuff */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    /*/* Text styles */
+    text-align: center;
+}
+
+#hero-logo {
+    height: 100px;
+}
+
+#hero-title {
+    margin: 0 auto;
+}
+
+#hero-button {
+    margin-top: 20px;
+}
+
+#front-hero {
+    /* Background styles */
+    background: url("../assets/front-hero.jpg") no-repeat center center fixed;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    opacity: 0.8;
+}
+
+#booking-hero {
+    height: 25vh;
+
+    /* Background styles */
+    background: url("../assets/booking-hero.jpg") no-repeat center center fixed;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    opacity: 0.8;
+}
+
+#table-hero {
+    height: 25vh;
+
+    /* Background styles */
+    background: url("../assets/table-hero.jpg") no-repeat center center fixed;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    opacity: 0.8;
+}
+
+#inner-hero {
+    color:white;
+    text-shadow: 0 0 20px #000, 0 0 10px #000;
+}
+
+#bookingForm {
+    width: 50%;
+    margin: 50px auto;
+    text-align: center;
+}
+
+#submitBook {
+    color: white;
+}
+
+#show-tables {
+    display: flex;
+    flex-wrap: wrap;
+    width: 80%;
+    /*background-color: lightgrey;*/
+    margin: 50px auto;
+    align-items: center;
+    justify-content: center;
+}
+
+#show-single {
+    margin: 50px 35px;
+}
+
+#table-num {
+    position: relative;
+    margin-top: -90px;
+    text-align: center;
+    color: white;
+    font-size: 20px;
+}
+
+.page-footer {
+    background-color: dimgrey;
+}
+
+footer {
+    text-align: center;
+    padding: 20px 0;
+}
+
+#admin-button {
+    position: relative;
+    float: right;
+    margin: -40px 20px 0 0;
+}
